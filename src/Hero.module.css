@@ -1,0 +1,71 @@
+.hero {
+    position: relative;
+    min-height: 1080px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 398px;
+  }
+  
+  .heroBackground {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .heroTitle {
+    position: relative;
+    color: #000;
+    font-size: 76px;
+    font-weight: 700;
+    font-family: 'Red Hat Display', -apple-system, Roboto, Helvetica, sans-serif;
+    z-index: 10;
+    margin-top: 311px;
+  }
+  
+  .titleLight {
+    font-weight: 500;
+  }
+  
+  .titleHighlight {
+    color: #ED1C24;
+  }
+  
+  .heroSubtitle {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #484848;
+    font-size: 32px;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 3.2px;
+    padding: 56px 70px;
+    max-width: 1468px;
+    width: 100%;
+  }
+  
+  .subtitleLight {
+    font-weight: 400;
+  }
+  
+  @media (max-width: 991px) {
+    .hero {
+      min-height: auto;
+      padding-bottom: 100px;
+    }
+  
+    .heroTitle {
+      font-size: 40px;
+      margin-top: 40px;
+    }
+  
+    .heroSubtitle {
+      padding: 20px;
+      font-size: 24px;
+    }
+  }
+  

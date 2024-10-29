@@ -1,0 +1,39 @@
+.propertyCard {
+    border-radius: 8px;
+    border: 1px solid #D6D6D6;
+    overflow: hidden;
+    width: 400px;
+  }
+  
+  .propertyImage {
+    width: 100%;
+    aspect-ratio: 1.11;
+    object-fit: cover;
+  }
+  
+  .propertyInfo {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .propertyPrice {
+    color: #A72A22;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .propertyType,
+  .propertyLocation,
+  .propertyDetails {
+    color: #484848;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  @media (max-width: 991px) {
+    .propertyCard {
+      width: 100%;
+    }
+  }
+  

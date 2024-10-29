@@ -1,0 +1,14 @@
+.app {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+@media (max-width: 991px) {
+  .app {
+    .app {
+    max-width: 100%;
+    padding-bottom: 100px;
+  }
+  }}

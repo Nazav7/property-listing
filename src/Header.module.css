@@ -1,0 +1,51 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 108px;
+  }
+  
+  .logo {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 2;
+    font-family: Aclonica, sans-serif;
+  }
+  
+  .logoHighlight {
+    color: #ED1C24;
+  }
+  
+  .subLogo {
+    background-color: #000;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Red Rose', sans-serif;
+    letter-spacing: 1.33px;
+    padding: 3px;
+  }
+  
+  .nav {
+    display: flex;
+    gap: 50px;
+  }
+  
+  .navLink {
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    padding: 10px;
+  }
+  
+  @media (max-width: 991px) {
+    .header {
+      padding: 20px;
+    }
+  
+    .nav {
+      gap: 20px;
+    }
+  }
+  

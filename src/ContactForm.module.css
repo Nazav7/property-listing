@@ -1,0 +1,114 @@
+.contactForm {
+
+    max-width: 700px;
+  
+    width: 100%;
+  
+  }
+  
+  
+  .formTitle {
+  
+    color: #000;
+  
+    font-size: 34px;
+  
+    font-weight: 700;
+  
+    font-family: Raleway, sans-serif;
+  
+    margin-bottom: 28px;
+  
+  }
+  
+  
+  .formField {
+  
+    margin-bottom: 28px;
+  
+  }
+  
+  
+  .formLabel {
+  
+    display: block;
+  
+    color: #000;
+  
+    font-size: 16px;
+  
+    font-weight: 600;
+  
+    font-family: Lato, sans-serif;
+  
+    margin-bottom: 10px;
+  
+  }
+  
+  
+  .formInput,
+  
+  .formTextarea {
+  
+    width: 100%;
+  
+    padding: 10px;
+  
+    border: 1px solid #ccc;
+  
+    border-radius: 4px;
+  
+    font-size: 16px;
+  
+    font-family: Lato, sans-serif;
+  
+    color: #777;
+  
+  }
+  
+  
+  .formTextarea {
+  
+    min-height: 200px;
+  
+    resize: vertical;
+  
+  }
+  
+  
+  .submitButton {
+  
+    width: 100%;
+  
+    background-color: #A72A22;
+  
+    color: #fff;
+  
+    font-size: 16px;
+  
+    font-weight: 600;
+  
+    font-family: Raleway, sans-serif;
+  
+    text-transform: uppercase;
+  
+    padding: 15px;
+  
+    border: none;
+  
+    border-radius: 4px;
+  
+    cursor: pointer;
+  
+  }
+  
+  
+  @media (max-width: 991px) {
+  
+    .contactForm {
+  
+      padding: 0 20px;
+  
+    }
+  
+  }
