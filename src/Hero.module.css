@@ -1,11 +1,11 @@
 .hero {
     position: relative;
-    min-height: 1080px;
+    /* recordar fijarse por que al intentar bajar de 70vh se queda estancado */
+    min-height: 70vh; 
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 398px;
   }
   
   .heroBackground {
@@ -24,7 +24,8 @@
     font-weight: 700;
     font-family: 'Red Hat Display', -apple-system, Roboto, Helvetica, sans-serif;
     z-index: 10;
-    margin-top: 311px;
+    margin-top: 14.375rem;
+    margin-bottom: 0px;
   }
   
   .titleLight {
@@ -46,6 +47,7 @@
     padding: 56px 70px;
     max-width: 1468px;
     width: 100%;
+    text-align: center;
   }
   
   .subtitleLight {

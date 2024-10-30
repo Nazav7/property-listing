@@ -2,7 +2,7 @@
     border-radius: 8px;
     border: 1px solid #D6D6D6;
     overflow: hidden;
-    width: 400px;
+    max-width: 25rem;
   }
   
   .propertyImage {
